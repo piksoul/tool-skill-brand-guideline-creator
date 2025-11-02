@@ -2,6 +2,34 @@
 
 A specialized repository for rapidly creating brand guideline skills for different clients. This toolkit enables you to quickly scaffold, validate, and package professional brand skills that help AI assistants apply client branding consistently.
 
+## ⚠️ Important: Repository Purpose
+
+**This is a GENERATOR repository - for creating and packaging brand skills.**
+
+**You do NOT use skills here for actual work. Instead:**
+
+1. **CREATE skills here** → Generate and package brand skills
+2. **DEPLOY skills elsewhere** → Install in client-specific repositories
+3. **USE skills there** → Create branded content in client repos
+
+```
+┌─────────────────────────┐
+│ THIS REPO (Factory)     │  →  CREATE & PACKAGE skills
+│ tool-skill-brand-*      │
+└─────────────────────────┘
+           │
+           │ .skill files
+           ↓
+┌─────────────────────────┐
+│ CLIENT REPOS (Usage)    │  →  INSTALL & USE skills
+│ pro-sites-brand/        │
+│ acme-corp-brand/        │
+│ startup-xyz-brand/      │
+└─────────────────────────┘
+```
+
+📖 **See [ARCHITECTURE.md](./ARCHITECTURE.md) for the complete multi-repository pattern.**
+
 ## Overview
 
 This repository provides tools and templates to create **brand guideline skills** - packaged instructions and assets that enable AI assistants to correctly apply a client's brand identity to documents, presentations, websites, and other artifacts.
